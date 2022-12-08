@@ -10,15 +10,15 @@
 </head>
 
 <body>
-	<!-- -------------------------------------------------popap------------------------------------------------------- -->
-	<section class="popap none">
-		<div class="popap-container">
-			<h2 class="popap-title">ваш фидбэк</h2>
-			<form class="popap-form">
-				<div class="popap-form-select">
-					<label class="popap-select-group">
-						<span class="popap-question">Как часто вы заходите на наш сайт?</span>
-						<select class="popap-select">
+	<!-- -------------------------------------------------popup ------------------------------------------------------- -->
+	<section class="popup none">
+		<div class="popup-container">
+			<h2 class="popup-title">ваш фидбэк</h2>
+			<form class="popup-form">
+				<div class="popup-form-select">
+					<label class="popup-select-group">
+						<span class="popup-question">Как часто вы заходите на наш сайт?</span>
+						<select class="popup-select">
 							<option value="almost_every_day" selected>Почти каждый день</option>
 							<option value="every_few_days">Раз в несколько дней</option>
 							<option value="every_few_weeks">Раз в несколько недель</option>
@@ -26,33 +26,33 @@
 						</select>
 					</label>
 				</div>
-				<div class="popap-form-radio">
-					<label class="popap-radio-group"> <span class="popap-radio-label">Вы подписаны на e-mail
+				<div class="popup-form-radio">
+					<label class="popup-radio-group"> <span class="popup-radio-label">Вы подписаны на e-mail
 							рассылку?</span>
-						<input type="radio" class="radio" name="popap-radio-group" value="yes">
-						<span class="popap-radio-group-text">да</span>
+						<input type="radio" class="radio" name="popup-radio-group" value="yes">
+						<span class="popup-radio-group-text">да</span>
 					</label>
-					<label class="popap-radio-group">
-						<input type="radio" class="radio" name="popap-radio-group" value="no">
-						<span class="popap-radio-group-text"> нет</span>
+					<label class="popup-radio-group">
+						<input type="radio" class="radio" name="popup-radio-group" value="no">
+						<span class="popup-radio-group-text"> нет</span>
 					</label>
 				</div>
-				<div class="popap-form-opinion">
-					<label class="popap-opinion"><span class="popap-opinion-span">Расскажите какой контент вы
+				<div class="popup-form-opinion">
+					<label class="popup-opinion"><span class="popup-opinion-span">Расскажите какой контент вы
 							хотели бы видеть на нашем сайте?</span>
-						<textarea class="popap-field-opinion" placeholder="Может, больше рецептов?"></textarea>
+						<textarea class="popup-field-opinion" placeholder="Может, больше рецептов?"></textarea>
 					</label>
-					<button class="popap-button">отправить</button>
+					<button class="popup-button">отправить</button>
 				</div>
 				<button class="popup-close" type="button"><span class="hidden-pop">Закрыть окно</span> </button>
 			</form>
 		</div>
 	</section>
 	<!-- -------------------------------------------------header------------------------------------------------------- -->
-	<div class="header__background">
+	<div class="header-background">
 		<header class="header" id="header">
-			<div class="header__container">
-				<div class="header__content">
+			<div class="header-container">
+				<div class="header-content">
 					<div class="main-header">
 						<div class="header-logo">
 							<a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
@@ -60,12 +60,12 @@
 						</div>
 						<nav class="header-menu">
 							<ul class="header-link">
-								<li class="header__item"><a class="nav-a" href="#header">главная</a></li>
-								<li class="header__item"><a class="nav-a" href="#post">посты</a></li>
-								<li class="header__item"><a class="nav-a" href="#books">статьи</a></li>
-								<li class="header__item"><a class="nav-a" href="#tag">теги</a></li>
-								<li class="header__item"><a class="nav-a" href="#tema">темы</a></li>
-								<li class="header__item"><a class="nav-a" href="#contact">контакты</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#header">главная</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#post">посты</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#books">статьи</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#tag">теги</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#tema">темы</a></li>
+								<li class="header-item"><a class="nav-subitem" href="#contact">контакты</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -81,7 +81,7 @@
 		<div class="trends-container">
 			<h2 class="title-trand">Сейчас в тренде</h2>
 			<section class="trends">
-				<article class="trend-one trend">
+				<article class="trend-nature trend">
 					<div class="trend-contant">
 						<ul class="trend-list">
 							<li class="trend-item">
@@ -97,7 +97,7 @@
 						</h2>
 					</div>
 				</article>
-				<article class="trend-two trend">
+				<article class="trend-table trend">
 					<div class="trend-contant">
 						<ul class="trend-list">
 							<li class="trend-item">
@@ -109,7 +109,7 @@
 						</h2>
 					</div>
 				</article>
-				<article class="trend-free trend">
+				<article class="trend-travel trend">
 					<div class="trend-contant">
 						<ul class="trend-list">
 							<li class="trend-item">
@@ -124,7 +124,7 @@
 						</h2>
 					</div>
 				</article>
-				<article class="trend-foo trend">
+				<article class="trend-fruits trend">
 					<div class="trend-contant">
 						<ul class="trend-list">
 							<li class="trend-item">
@@ -144,17 +144,18 @@
 		<!-- -------------------------------------------------contant ------------------------------------------------------- -->
 		<div class="main-container">
 			<section class="books-content" id="books">
-				<aside class="books one">
-					<img class="image-one" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
+				<aside class="books travel">
+					<img class="image-travel"
+						src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
 						alt="Картинка берег">
 					<div class="information-box">
 						<div class="inform">
 							<ul class="link-tag">
-								<li class="item-tag"><a class="link-a" href="#">travel</a></li>
-								<li class="item-tag"><a class="link-a" href="#">health</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">travel</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">health</a></li>
 							</ul>
 						</div>
-						<h2 class="title-inform"><a class="inform-a" href="#">10 мест, ради которых стоит проснуться на
+						<h2 class="title-inform"><a class="inform-heading" href="#">10 мест, ради которых стоит проснуться на
 								рассвете</a></h2>
 						<div class="date-block">
 							<p class="date">10 июня 2019 </p>
@@ -168,17 +169,17 @@
 						</div>
 					</div>
 				</aside>
-				<aside class="books two">
-					<img class="image-two" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg"
-						alt="йога">
+				<aside class="books lifstyle">
+					<img class="image-lifstyle"
+						src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="йога">
 					<div class="information-box">
 						<div class="inform">
 							<ul class="link-tag">
-								<li class="item-tag"><a class="link-a" href="#">health</a></li>
-								<li class="item-tag"><a class="link-a" href="#">lifestyle</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">health</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">lifestyle</a></li>
 							</ul>
 						</div>
-						<h2 class="title-inform"><a class="inform-a" href="#">ЙОга для начинающих в
+						<h2 class="title-inform"><a class="inform-heading" href="#">ЙОга для начинающих в
 								домашних условиях</a></h2>
 						<div class="date-block">
 							<p class="date">10 июня 2019 </p>
@@ -190,16 +191,16 @@
 						</div>
 					</div>
 				</aside>
-				<aside class="books free">
+				<aside class="books music">
 					<img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="фестиваль">
 					<div class="information-box">
 						<div class="inform">
 							<ul class="link-tag">
-								<li class="item-tag"><a class="link-a" href="#">music
+								<li class="item-tag"><a class="link-subtag" href="#">music
 									</a></li>
 							</ul>
 						</div>
-						<h2 class="title-inform"><a class="inform-a" href="#">Лучшие музыкальные
+						<h2 class="title-inform"><a class="inform-heading" href="#">Лучшие музыкальные
 								фестивали этого лета</a></h2>
 						<div class="date-block">
 							<p class="date">10 июня 2019 </p>
@@ -216,16 +217,16 @@
 						</div>
 					</div>
 				</aside>
-				<aside class="books foo">
+				<aside class="books food">
 					<img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="обед">
 					<div class="information-box">
 						<div class="inform">
 							<ul class="link-tag">
-								<li class="item-tag"><a class="link-a" href="#">Lifestyle</a></li>
-								<li class="item-tag"><a class="link-a" href="#">food</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">Lifestyle</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">food</a></li>
 							</ul>
 						</div>
-						<h2 class="title-inform"><a class="inform-a" href="#">Наукоёмкий подход к
+						<h2 class="title-inform"><a class="inform-heading" href="#">Наукоёмкий подход к
 								кулинарии</a></h2>
 						<div class="date-block">
 							<p class="date">10 июня 2019 </p>
@@ -237,17 +238,17 @@
 						</div>
 					</div>
 				</aside>
-				<aside class="books five">
+				<aside class="books art">
 					<img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="мебель">
 					<div class="information-box">
 						<div class="inform">
 							<ul class="link-tag">
-								<li class="item-tag"><a class="link-a" href="#">lifestyle</a></li>
-								<li class="item-tag"><a class="link-a" href="#">interor</a></li>
-								<li class="item-tag"><a class="link-a" href="#">art</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">lifestyle</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">interor</a></li>
+								<li class="item-tag"><a class="link-subtag" href="#">art</a></li>
 							</ul>
 						</div>
-						<h2 class="title-inform"><a class="inform-a" href="#">делаем модные принты на
+						<h2 class="title-inform"><a class="inform-heading" href="#">делаем модные принты на
 								подушках для интерьера</a></h2>
 						<div class="date-block">
 							<p class="date">10 июня 2019 </p>
