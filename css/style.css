@@ -81,16 +81,8 @@ a {
 	position: relative;
 	text-decoration: none;
 }
-/* <!-- -------------------------------------------------face------------------------------------------------------- --> */
 
-@font-face {
-	font-family: open-sans-r;
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
-	font-weight: 400;
-	font-style: normal, bold;
 
-}
 
 /* <!-- -------------------------------------------------popup ------------------------------------------------------- --> */
 
@@ -132,7 +124,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	max-width: 390px;
-	width: 95%;
+	width: 100%;
 	min-height: 590px;
 	margin: auto;
 	position: relative;
@@ -294,7 +286,7 @@ a {
 	font-size: 13px;
 	color: #ffffff;
 	text-decoration: underline;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: 400;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -305,7 +297,6 @@ a {
 	bottom: 0;
 	left: 0;
 	position: absolute;
-	width: 0%;
 	height: 2px;
 	background-color: #f7f7f4;
 	transition: 0.5s;
@@ -328,7 +319,7 @@ a {
 	text-transform: uppercase;
 	font-size: 45px;
 	color: white;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	line-height: 75px;
 	text-align: center;
@@ -383,13 +374,13 @@ a {
 	z-index: -1;
 }
 
-.trend:last-child {margin: right 0}
+
 
 .title-trand {
 	text-align: center;
 	font-size: 20px;
 	line-height: 29px;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -446,7 +437,7 @@ a {
 	font-size: 20px;
 	line-height: 24px;
 	color: #ffffff;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -485,7 +476,7 @@ a {
 	gap: 10px;
 	font-size: 15px;
 	line-height: 32px;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	color: #b59f5b;
 	text-transform: uppercase;
@@ -496,7 +487,7 @@ a {
 	font-size: 20px;
 	line-height: 22px;
 	color: black;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -517,7 +508,7 @@ a {
 	padding-top: 62px;
 }
 
-.inform-a::before {
+.inform-heading::before {
 	content: "";
 	bottom: 0;
 	left: 0;
@@ -529,11 +520,11 @@ a {
 	margin-bottom: -3px;
 }
 
-.inform-a:hover::before {
+.inform-heading:hover::before {
 	width: 350px;
 }
 
-.inform-a:hover {
+.inform-heading:hover {
 	color: rgb(169, 121, 62);
 	opacity: 0.8;
 }
@@ -543,7 +534,7 @@ a {
 	padding-top: 30px;
 	gap: 10px;
 	font-size: 12px;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 }
 .date {
@@ -554,7 +545,7 @@ a {
 	padding-top: 50px;
 	font-size: 15px;
 	line-height: 24px;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: 400;
 	color: black;
 }
@@ -579,7 +570,7 @@ a {
 .title-post {
 	font-size: 14px;
 	line-height: 29px;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -609,7 +600,7 @@ a {
 	font-size: 12px;
 	color: black;
 	opacity: 0.5;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: 400;
 }
 
@@ -632,7 +623,7 @@ a {
 	line-height: 15px;
 	color: black;
 	text-transform: uppercase;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 	margin-top: 8px;
 }
@@ -697,7 +688,7 @@ a {
 	border: none;
 	width: 100%;
 	background-color: #b59f5b;
-	font-family: "open-sans-r", "sans-serif";
+	font-family: "open sans";
 	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 13px;
@@ -748,7 +739,7 @@ a {
 .teg-link {
 	display: block;
 	text-decoration: none;
-	font-family: "open-sans-r", "sans-serif";
+	font-family: "open sans";
 	text-transform: uppercase;
 	color: #0f0d0e;
 	font-size: 12px;
@@ -773,7 +764,7 @@ a {
 	align-items: center;
 	align-content: space-between;
 	text-decoration: none;
-	font-family: "open-sans-r", "sans-serif";
+	font-family: "open sans";
 	color: #000000;
 	font-size: 14px;
 }
@@ -801,7 +792,7 @@ a {
 	display: inline-block;
 	vertical-align: top;
 	color: #b59f5b;
-	font-family: "open-sans-r", "sans-serif";
+	font-family: "open sans";
 	font-size: 12px;
 }
 
@@ -817,7 +808,7 @@ a {
 	text-transform: uppercase;
 	font-size: 1.4em;
 	font-weight: bold;
-	font-family: "open-sans-r", "sans-serif";
+	font-family: "open sans";
 	line-height: 1.3;
 	margin: 25px 0px 0px 67px;
 }
@@ -883,7 +874,7 @@ a {
 	color: #0f0d0e;
 	font-weight: bold;
 	line-height: 1.6;
-	font-family: "open-sans-r";
+	font-family: "open sans";
 	font-weight: bold;
 }
 
@@ -918,7 +909,7 @@ a {
 	margin-top: 20px;
 }
 
-.price:nth-child(2) {
+.flo {
 	font-size: 21px;
 }
 
@@ -1018,7 +1009,6 @@ a {
 
 @media (max-width: 991px) {
 	.main-container {
-		max-width: calc(695px + 297px + 33px);
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
