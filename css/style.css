@@ -36,8 +36,6 @@ body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	
-	
 }
 
 input,
@@ -84,10 +82,7 @@ a {
 	text-decoration: none;
 }
 
-
-
 /* <!-- -------------------------------------------------popup ------------------------------------------------------- --> */
-
 
 .popup {
 	width: 100vw;
@@ -105,7 +100,7 @@ a {
 	z-index: 8;
 	font-size: 0.813em;
 }
-.popup-title{
+.popup-title {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -237,7 +232,6 @@ a {
 
 /* <!-- -------------------------------------------------header------------------------------------------------------- --> */
 
-
 .header-background {
 	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
 	background-position: top left;
@@ -280,7 +274,7 @@ a {
 	width: 180px;
 }
 
-.header-link{
+.header-link {
 	display: flex;
 	gap: 32px;
 }
@@ -361,8 +355,8 @@ a {
 	align-items: flex-end;
 	justify-content: center;
 	padding-bottom: 15px;
-	margin-right:3px;
-	width: 24.79%;
+	margin-right: 3px;
+	width: 24.78%;
 }
 .trend::after {
 	content: "";
@@ -375,8 +369,6 @@ a {
 	opacity: 0.6;
 	z-index: -1;
 }
-
-
 
 .title-trand {
 	text-align: center;
@@ -402,7 +394,7 @@ a {
 	color: #ffff;
 }
 
-.trend-nature{
+.trend-nature {
 	background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/trend1.jpg?raw=true");
 }
 .trend-table {
@@ -842,8 +834,6 @@ a {
 	padding-bottom: 30px;
 }
 
-
-
 .ourproducts-img-block {
 	display: flex;
 	justify-content: center;
@@ -997,7 +987,6 @@ a {
 	margin-bottom: 40px;
 }
 
-
 /* <!-- -------------------------------------------------media ------------------------------------------------------- --> */
 /* <!-- -------------------------------------------------1200 ------------------------------------------------------- --> */
 
@@ -1130,7 +1119,7 @@ a {
 		margin-top: 44px;
 	}
 
-	.trend{
+	.trend {
 		flex: 1;
 	}
 
